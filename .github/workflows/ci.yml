@@ -75,9 +75,9 @@ jobs:
       - name: "PHP lint"
         run: |
           docker exec app .github/actions/lint_php-lint.sh
-      - name: "Twig lint"
-        run: |
-          docker exec app .github/actions/lint_twig-lint.sh
+#      - name: "Twig lint"
+#        run: |
+#          docker exec app .github/actions/lint_twig-lint.sh
       - name: "JS lint"
         run: |
           docker exec app .github/actions/lint_js-lint.sh
